@@ -4,7 +4,7 @@ const SLACK_BOT_TOKEN = process.env.SLACK_BOT_TOKEN;
 
 let Botkit = require('botkit'),
     formatter = require('./modules/slack-formatter'),
-    salesforce = require('./modules/salesforce'),
+    salesforce = require('./modules/salesforce'),  //may need to be switched to `slack-salesforce-auth.js`
 
     controller = Botkit.slackbot(),
 

@@ -1,5 +1,7 @@
 "use strict";
 
+//remove this code as it's handled in `slack-salesforce-auth.js`
+
 let nforce = require('nforce'),
 
     SF_CLIENT_ID = process.env.SF_CLIENT_ID,
@@ -27,6 +29,8 @@ let login = () => {
     });
 
 };
+
+//end of removed code
 
 let findAccount = name => {
 
@@ -135,7 +139,7 @@ let createCase = newCase => {
 
 login();
 
-exports.org = org;
+//exports.org = org;
 exports.findAccount = findAccount;
 exports.findContact = findContact;
 exports.findOpportunity = findOpportunity;
