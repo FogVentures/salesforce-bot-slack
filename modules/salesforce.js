@@ -1,7 +1,7 @@
 "use strict";
 
 //remove this code as it's handled in `slack-salesforce-auth.js`
-
+/*
 let nforce = require('nforce'),
 
     SF_CLIENT_ID = process.env.SF_CLIENT_ID,
@@ -29,7 +29,7 @@ let login = () => {
     });
 
 };
-
+*/
 //end of removed code
 
 let findAccount = name => {
